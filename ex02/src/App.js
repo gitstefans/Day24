@@ -21,8 +21,8 @@ class App extends Component {
   render() { 
     return ( 
       <div className="App">
-        <button type="button" onClick={this.setMyStorage}>Set Cookie</button>
-        <button type="button" onClick={this.getMyStorage}>Get Cookie</button>
+        <button onClick={this.setMyStorage}>Set Cookie</button>
+        <button onClick={this.getMyStorage}>Get Cookie</button>
       </div>
      );
   }
